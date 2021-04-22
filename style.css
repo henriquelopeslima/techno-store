@@ -1,53 +1,84 @@
-body, h1, h2, ul, li {
-    padding: 0px;
-    margin: 0px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: linear-gradient(to right, #1a1a1a 30%, #ffffff 30%);
-    font-family: "Noto Serif";
-  }
-  
-  #app {
-    padding: 0 80px;
-  }
-  
-  /* LISTA PRODUTOS */
-  
-  .produtos {
-    max-width: 900px;
-    margin: 100px auto 0 auto;
-  }
+body,
+h1,
+h2,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+}
 
-  .produto {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    background: #ffffff;
-    box-shadow: 0 0 2rem rgba(0,0,0,.1);
-  }
-  
-  .produto_img {
-    max-width: 300px;
-    margin-right: 40px;
-  }
-  
-  .produto_titulo {
-    font-size: 3rem;
-    line-height: 1;
-  }
-  
-  .produto_preco {
-    color: rgba(0,0,0,.5);
-  }
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #1a1a1a 40%, #ffffff 40%);
+  font-family: "Noto Serif";
+}
+
+#app {
+  padding: 0 80px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
+}
+
+.carrinho_menu::after {
+  content: "";
+  display: inline-block;
+  background: url("./assets/carrinho.svg") no-repeat center center;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.carrinho_menu {
+  display: flex;
+  align-items: center;
+}
+
+/* LISTA PRODUTOS */
+
+.produtos {
+  max-width: 900px;
+  margin: 100px auto 0 auto;
+}
+
+.produto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background: #ffffff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+
+.produto_img {
+  max-width: 300px;
+  margin-right: 40px;
+}
+
+.produto_titulo {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.produto_preco {
+  color: rgba(0, 0, 0, 0.5);
+}
 
 /* MODAL */
 
@@ -58,7 +89,7 @@ body, h1, h2, ul, li {
   left: 0px;
   width: 100%;
   height: 100vh;
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .modal {
@@ -80,7 +111,7 @@ body, h1, h2, ul, li {
   align-items: end;
   grid-gap: 50px;
   padding: 50px 50px 50px 0;
-  animation: fadeIn .3s forwards;
+  animation: fadeIn 0.3s forwards;
 }
 
 @keyframes fadeIn {
@@ -94,7 +125,7 @@ body, h1, h2, ul, li {
   }
 }
 
-.modal_fechar{
+.modal_fechar {
   background: white;
   border-radius: 50%;
   border: 2px solid #000;
@@ -104,13 +135,13 @@ body, h1, h2, ul, li {
   top: -10px;
   right: -10px;
   font-size: 1rem;
-  box-shadow: 0px 3px 4px rgba(0,0,0,.1), 0px 4px 10px rgba(0,0,0,.2);
-  cursor: pointer   ;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .modal_img {
   grid-column: 1;
-  box-shadow: 0px 3px 4px rgba(0,0,0,.1), 0px 4px 10px rgba(0,0,0,.2);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .modal_img img {
@@ -138,6 +169,10 @@ body, h1, h2, ul, li {
   font-family: "Noto Serif";
 }
 
+.modal_btn.esgotado {
+  background: #808080;
+}
+
 .modal_btn:active {
   background: #808080;
 }
@@ -153,12 +188,12 @@ body, h1, h2, ul, li {
 }
 
 .avaliacao {
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 20px;
 }
 
 .avaliacao_descricao {
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
   margin: 20px 0 5px 0;
 }
 
