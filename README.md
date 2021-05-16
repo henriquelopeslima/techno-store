@@ -1,5 +1,4 @@
 <div align="center" id="top"> 
-  <!-- <img src="./.github/app.gif" alt="Techno" /> -->
 
   &#xa0;
 
@@ -9,19 +8,19 @@
 <h1 align="center">Techno</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/henriquelopeslima/techno?color=56BEB8">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/henriquelopeslima/techno-store?color=56BEB8">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/henriquelopeslima/techno?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/henriquelopeslima/techno-store?color=56BEB8">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/henriquelopeslima/techno?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/henriquelopeslima/techno-store?color=56BEB8">
 
-  <!-- <img alt="Licença" src="https://img.shields.io/github/license/henriquelopeslima/techno?color=56BEB8"> -->
+  <!-- <img alt="Licença" src="https://img.shields.io/github/license/henriquelopeslima/techno-store?color=56BEB8"> -->
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/henriquelopeslima/techno?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/henriquelopeslima/techno-store?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/henriquelopeslima/techno?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/henriquelopeslima/techno-store?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/henriquelopeslima/techno?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/henriquelopeslima/techno-store?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -46,7 +45,12 @@
 
 ## :dart: Sobre ##
 
+O projeto é em sua simplicidade uma aprensentação de uma loja online, com produtos predefinidos em um arquivo JSON, sendo eles consumidos para apresentar na interface, e o carrinho é armazenado no localStorage do navegador. Foi usando e importado o arquivo que contém o vue sem utilizar a CLI.
+
 Esse projeto foi feito com apoio do Curso de Vue.js 2 Completo da <a href="https://www.origamid.com/" target="_blank">Origamid</a>, focado no aprendizado dos fundamentos da tecnologia.
+
+<img src="./screenshots/home.png" alt="Techno" />
+<img src="./screenshots/modal.png" alt="Techno" />
 
 <!-- ## :sparkles: Funcionalidades ##
 
@@ -68,10 +72,10 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/henriquelopeslima/techno
+$ git clone https://github.com/henriquelopeslima/techno-store
 
 # Entre na pasta
-$ cd techno
+$ cd techno-store
 
 # Basta abrir o index.html no navegador
 ```
